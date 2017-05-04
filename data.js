@@ -3,4 +3,5 @@ const data = [
   { id: 2, author: 'Justin', text: 'youre __right!__'}
 ]
 
+// node style export (vs. export default)
 module.exports = data;
