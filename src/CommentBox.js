@@ -6,7 +6,9 @@ import style from './style';
 class CommentBox extends Component {
   constructor(props) {
     super(props);
-    this.state = { data: [] };
+    this.state = {
+      data: []
+    };
   }
   render() {
     return (
