@@ -7,7 +7,7 @@ import CommentBox from './CommentBox';
 //more React code here!
 ReactDOM.render(
   <CommentBox
-    url='http://localhost:3001/api/comments'
+    url='https://mern-comment-box-api.herokuapp.com/comments'
     pollInterval={2000} />,
   document.getElementById('root')
 );
